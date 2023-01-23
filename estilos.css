@@ -335,7 +335,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 .titulo{
   font-family: 'Times New Roman', Times, serif;
   font-weight: 100;
-  
+  right: 50%;
   color: rgba(255, 249, 249, 0.837);
   letter-spacing: 2mm;
   position: absolute;
