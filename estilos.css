@@ -483,3 +483,9 @@ h1 {
 .titulo h4{
   font-size: 1.28rem;
 }
+@media (max-width: 900px) {
+  .titulo{
+    margin-right: 0%;
+  }
+}
+
