@@ -1,0 +1,107 @@
+.bondi img{
+    max-width: 50%;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    z-index: 20;
+}
+
+
+
+.fondo img{
+    max-width: 75%;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    z-index: -9;
+}
+
+.ciudad{
+    background-image: url(4x/Recurso\ 1lamatanza.png);
+    background-size: cover;
+    z-index: 22; 
+    position: absolute;
+}
+
+.ciudad2{
+    background-image: url(ruta.png);
+    background-size: cover;
+    z-index: -3;  
+    background-position-y: -20%;
+    top: -20;
+    
+}
+
+#ciudadi{
+    max-width: 90%;
+    position: absolute;
+    top: 12%;
+    
+   
+    
+    
+
+}
+
+.nubes img{
+    max-width: 30%;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    z-index: 19;
+    
+}
+
+
+.rueda-1 img{
+    max-width: 6%;
+    position: absolute;
+    top: 52%;
+    left: 26%;
+    z-index: 22;
+    
+}
+
+.rueda-2 img{
+    max-width: 6%;
+    position: absolute;
+    top: 52%;
+    left: 56%;
+    z-index: 22;
+    
+}
+
+
+#rueda-one img {
+    animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(-360deg); }
+}
+
+#rueda-two img {
+    animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(-360deg); }
+}
+
+
+.bondi img:hover{
+    transition: 1.2s;
+    transform:scale(1.3);
+}
+
+#volar2 img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+    pointer-events: none;
+}
